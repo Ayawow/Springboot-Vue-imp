@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.JwtTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.212 s <<< FAILURE! - in org.example.JwtTest
+testParse  Time elapsed: 0.037 s  <<< ERROR!
+com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on 2023-11-16T13:46:15Z.
+	at org.example.JwtTest.testParse(JwtTest.java:37)
+
